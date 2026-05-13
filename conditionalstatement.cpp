@@ -11,7 +11,7 @@ int main() {
     cout << "one";
 
     else if(n==2)
-    cout << "two";
+    cout << "twoooo";
 
     else if(n==3)
     cout << "three";
@@ -35,7 +35,7 @@ int main() {
     cout << "nine";
 
     else
-    cout << "greater than 9";
+    cout << "Greater than 9:";
 
     return 0;
 
