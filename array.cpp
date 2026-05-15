@@ -2,24 +2,30 @@
 
 using namespace std;
 
-int main(){
+int main() 
+{
 
     int n;
+    
+    cout << "Enter size of array: ";
     cin >> n;
 
     int arr[n];
 
+    cout << "Enter " << n << " numbers:" << endl;
 
-for(int i=0; i<n; i++){
-    cin >> arr[i];
+    for (int i = 0; i < n; i++) 
+    {
+        cin >> arr[i];
+    }
 
-}
+    cout << "Array in reverse order:" << endl;
 
-for(int i=n-1; i>=0; i--){
-    cout << arr[i] << " ";
 
-}
+    for (int i = n - 1; i >= 0; i--) 
+    {
+        cout << arr[i] << " ";
+    }
 
-return 0;
-
+    return 0;
 }
